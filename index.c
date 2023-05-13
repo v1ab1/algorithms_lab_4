@@ -119,9 +119,9 @@ int main() {
   double chi2_inv = chisqinv(alfa, pockets_count - 1);
 
   if (S < chi2_inv) {
-    printf("true");
+    printf("true\n");
   } else {
-    printf("false");
+    printf("false\n");
   }
 
   free(ri_sample);
